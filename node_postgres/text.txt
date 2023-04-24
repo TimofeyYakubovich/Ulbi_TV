@@ -1,0 +1,9 @@
+C:\>cd Program Files\PostgreSQL\13\bin
+psql --version
+psql -U postgres
+\l посмотреть созданые базы данных
+create database node_postgres;
+\connect node_postgres подключится к базе данных
+\dt посмотреть созданые в базе данных таблицы
+psql \! chcp 1251 ооброжение русских символов
+select * from person;
